@@ -33,3 +33,8 @@
 - Buckets - 100 soft per account, if you raise requests you can have up to 1000 per account
 - Unlimited objects per bucket, each object can go from 0bytes to 5TB
 - Key=name, Value=data
+
+### Patterns and Anti-Patterns
+- S3 is object storage, not file or block
+- You can't mount an S3 bucket as a volume - for that use EBS
+- S3 should be default for INPUT/OUTPUT FROM/TO AWS Services
