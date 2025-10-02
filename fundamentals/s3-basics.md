@@ -25,3 +25,11 @@
 
 ![alt text](image-3.png)
 
+![alt text](image-4.png)
+
+- Name must be globally unique
+- Name between 3-63 characters, all lowercase, no underscores
+- Can't be IP formatted
+- Buckets - 100 soft per account, if you raise requests you can have up to 1000 per account
+- Unlimited objects per bucket, each object can go from 0bytes to 5TB
+- Key=name, Value=data
